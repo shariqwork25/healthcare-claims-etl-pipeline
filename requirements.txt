@@ -1,0 +1,5 @@
+pandas
+pyspark
+apache-airflow
+snowflake-connector-python
+boto3
