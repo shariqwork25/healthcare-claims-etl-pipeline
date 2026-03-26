@@ -5,6 +5,7 @@ This project demonstrates a healthcare data pipeline that processes EDI 837 heal
 and transforms them into analytics-ready datasets using a Bronze / Silver / Gold architecture.
 
 ## Architecture
+![Architecture Diagram](architecture/architecture-diagram.png)
 EDI 837 → AWS S3 → Lambda Trigger → AWS Glue / Spark → Bronze → Silver → Gold → Snowflake → BI Dashboard
 
 ## Technologies
